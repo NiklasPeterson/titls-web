@@ -1,1 +1,33 @@
 @import 'tailwindcss';
+
+@layer utlities {
+
+.plainButton {
+  @apply relative flex items-center justify-center overflow-hidden select-none text-sm font-semibold text-zinc-950 dark:text-white bg-transparent bg-white hover:bg-zinc-100 dark:bg-zinc-950 dark:hover:bg-zinc-900;
+}
+
+}
+
+
+.p-sa {
+  padding-top: env(safe-area-inset-top);
+  padding-right: env(safe-area-inset-right);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+}
+
+.pt-sa {
+  padding-top: env(safe-area-inset-top);
+}
+
+.pr-sa {
+  padding-right: env(safe-area-inset-right);
+}
+
+.pb-sa {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.pl-sa {
+  padding-left: env(safe-area-inset-left);
+}

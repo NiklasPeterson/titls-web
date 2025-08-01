@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} antialiased w-full flex justify-center bg-white text-zinc-600 dark:bg-black dark:text-zinc-400`}
+        className={`${inter.className} antialiased w-full flex justify-center bg-white text-zinc-600 dark:bg-zinc-950 dark:text-zinc-400`}
       >
         {children}
       </body>
